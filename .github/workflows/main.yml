@@ -38,3 +38,5 @@ jobs:
           sudo apt full-upgrade -y
           sudo apt install php -y
           pwd
+          cd /home/runner/work/PCCPL
+          php -S localhost:8000
