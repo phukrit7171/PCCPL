@@ -34,6 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Run update
           sudo apt update -y
           sudo apt full-upgrade -y
-          sudo apt install PHP -y
+          sudo apt install php -y
